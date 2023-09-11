@@ -27,14 +27,6 @@ class _MasterAppState extends State<MasterApp>
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Container(
-        alignment: Alignment.center,
-        child: ElevatedButton(
-          child: Text('Push'),
-          onPressed: () => IntroScreen(),
-        ),
-      ),
-    );
+    return MaterialApp(home: IntroScreen());
   }
 }
