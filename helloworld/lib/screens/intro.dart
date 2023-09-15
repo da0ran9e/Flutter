@@ -26,7 +26,7 @@ class _IntroScreenState extends State<IntroScreen>
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: Container(
+      home: Container(
       width: 375,
       height: 812,
       padding: const EdgeInsets.symmetric(horizontal: 102),
@@ -127,6 +127,7 @@ class _IntroScreenState extends State<IntroScreen>
               ],
             ),
           ),
+          
         ],
       ),
     ));
